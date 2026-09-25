@@ -1,8 +1,7 @@
 import axios from "axios";
 
-// Base URL targeting Express backend running on port 28794
 const API = axios.create({
-  baseURL: "http://localhost:28794/api",
+  baseURL: "https://weconnect-admin-2.onrender.com/api",
   headers: {
     "Content-Type": "application/json",
   },

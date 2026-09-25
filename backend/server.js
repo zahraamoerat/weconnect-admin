@@ -15,6 +15,7 @@ const corsOptions = {
     "http://localhost:5175", // WeConnect Admin dev port
     "http://localhost:8080", // Vue CLI default port
     "http://localhost:3000", // Alternative local dev port
+    "https://weconnect-bir9.onrender.com",
   ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
